@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Define o caminho do nosso arquivo CSV
 ARQUIVO_CSV = 'database.csv'
 
-# Função para ler os dados do arquivo CSV
+# Função para ler os dados do arquivo CSV, novo comentário
 def ler_dados_csv():
     """Lê todos os dados do arquivo CSV e retorna uma lista de dicionários."""
     if not os.path.exists(ARQUIVO_CSV):
